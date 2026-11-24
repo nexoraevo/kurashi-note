@@ -1,6 +1,6 @@
 // Chawan：画面の元（HTML・アイコン）をスマホに置いておき、開くときはまずそれを出す。
 // 裏で新しい版を取ってきて入れ替えるので、更新は次に開いたときに出る。データ（Apps Script）には触らない。
-const CACHE = 'kurashi-v10';
+const CACHE = 'kurashi-v11';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', (e) => {
